@@ -1,11 +1,14 @@
 package uk.org.codebox.readableregex;
 
-import static org.junit.Assert.*;
 import org.junit.Test;
+
 import static org.hamcrest.CoreMatchers.is;
-import static uk.org.codebox.readableregex.Token.*;
-import static uk.org.codebox.readableregex.CharacterTokenPart.*;
+import static org.junit.Assert.assertThat;
+import static org.junit.Assert.fail;
+import static uk.org.codebox.readableregex.CharacterTokenPart.characters;
+import static uk.org.codebox.readableregex.CharacterTokenPart.range;
 import static uk.org.codebox.readableregex.Quantifier.*;
+import static uk.org.codebox.readableregex.Token.*;
 
 public class RegExBuilderTest {
     @Test
