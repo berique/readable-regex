@@ -65,3 +65,8 @@ Readability is greatly improved for more complex expressions:
 	    );
 
 All classes in the library are immutable, and therefore instances are re-usable and thread-safe.
+
+TODO
+====
+
+* Implement fluent syntaxy instead of put everything inside the build(...)
