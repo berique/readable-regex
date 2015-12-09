@@ -7,7 +7,7 @@ import static uk.org.codebox.readableregex.Token.*;
 import static uk.org.codebox.readableregex.CharacterTokenPart.*;
 import static uk.org.codebox.readableregex.Quantifier.*;
 
-public class TestRegExBuilder {
+public class RegExBuilderTest {
     @Test
     public void whenEmptyBuilder_thenEmptyText(){
         assertThat(RegExBuilder.build(), is(""));
